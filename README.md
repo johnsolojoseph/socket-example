@@ -5,7 +5,7 @@ A simple AngularJS application that leverages socket.io for bi-directional commu
 ## Get started
 
 1. Make sure to `npm install`
-2. Then enter `npm start`
+2. Then enter `npm start` in the command terminal
 3. Navigate to localhost:3300
 
 ## Guidance
