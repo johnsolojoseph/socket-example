@@ -9,4 +9,5 @@ A simple AngularJS application that leverages socket.io for bi-directional commu
 3. Navigate to `localhost:3300`
 
 ## Guidance
-Make sure to have node installed. Open multiple browser windows on localhost:3300 to see multiple clients updated in real-time
+Make sure to have node installed.<br>
+ Open multiple browser windows on localhost:3300 to see multiple clients updated in real-time
