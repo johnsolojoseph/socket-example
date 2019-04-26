@@ -5,7 +5,7 @@ const io = require('socket.io')(server);
 
 
 //Port for localhost or production
-const port = 3300 || process.env.PORT;
+const port =  process.env.PORT || 3300;
 
 //Serve user static files
 app.use(express.static('public'));
@@ -21,3 +21,5 @@ io.on('connection', function(socket) {
 
 
 server.listen(port);
+
+console.log("The magic is happening on port " + port);
